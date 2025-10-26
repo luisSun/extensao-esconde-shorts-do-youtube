@@ -1,4 +1,4 @@
-# Extensão Esconde Shorts do YouTube ![Icon](./icons/icon48.png)
+# Extensão Esconde Shorts do YouTube
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
