@@ -1,0 +1,18 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs / editores
+.vscode/
+.idea/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Pastas de build ou distribuição (se usar)
+dist/
+build/
+
+# Node modules (se algum dia usar npm/yarn)
+node_modules/
