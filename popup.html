@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hide YouTube Shorts</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup">
+    <h1>        
+        HIDE YOUTUBE SHORTS
+        <img src="./icons/icon48.png" alt="Icon" class="h1-icon"></a>
+      </h1>
+
+    <div class="toggle-container">
+      <div class="toggle-label">
+        <span id="statusIcon" class="status-icon">❌</span>
+        <span>Enable Auto-Hide Shorts</span>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="autoHideToggle">
+        <span class="slider"></span>
+      </label>
+    </div>
+
+    <button id="hideNowBtn" class="action-btn">
+      ▶ Hide Current Shorts
+    </button>
+
+    <div class="button-group">
+      <!-- Botão de Settings -->
+      <button id="settingsBtn" class="settings-btn">⚙ Settings</button>
+    
+      <!-- Botão de GitHub -->
+      <button id="githubBtn" class="github-btn">
+        <img src="./icons/github-icon.png" alt="GitHub" class="github-icon">
+        GitHub
+      </button>
+    </div>
+
+    <footer>
+      Version 1.0 — Developed by [Your Name/Company]
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #005bff, #009dff);
+    color: #fff;
+    width: 280px;
+    box-sizing: border-box;
+  }
+  
+  .popup {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    
+  }
+  .h1-icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  
+  .toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+  }
+  
+  .status-icon {
+    font-size: 16px;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 22px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
+    background-color: #ccc;
+    border-radius: 22px;
+    transition: .3s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px; width: 16px;
+    left: 3px; bottom: 3px;
+    background-color: white;
+    border-radius: 50%;
+    transition: .3s;
+  }
+  
+  input:checked + .slider {
+    background-color: #00d26a;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  
+  .action-btn, .settings-btn {
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    transition: opacity .2s;
+  }
+  
+  .action-btn {
+    background-color: #0066ff;
+    margin-bottom: 8px;
+  }
+  
+  .settings-btn {
+    background-color: rgba(255,255,255,0.2);
+  }
+
+  .button-group {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .settings-btn, .github-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* espaço entre ícone e texto */
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .github-btn {
+    background-color: #f0f0f0;
+  }
+  
+  .github-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .action-btn:hover,
+  .settings-btn:hover {
+    opacity: 0.8;
+  }
+  
+  footer {
+    margin-top: 12px;
+    font-size: 11px;
+    opacity: 0.8;
+  }
+  
